@@ -4,7 +4,7 @@ import sys
 if __name__ != "__main__":
     exit()
 
-argumentSTR = "{:d} argument"
+argumentStr = "{:d} argument"
 argc = len(sys.argv) - 1
 if argc == 0:
     argumentStr += 's.'
